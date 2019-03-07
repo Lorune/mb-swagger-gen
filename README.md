@@ -7,7 +7,7 @@ Modified to support a basepath specification. Author did not respond to merge re
 #### Installation
 
 ```
-npm i express-swagger-generator --save-dev
+npm i mb-swagger-gen --save-dev
 ```
 
 #### Usage
