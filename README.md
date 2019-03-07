@@ -1,4 +1,8 @@
-### Express Swagger Generator
+### mb-swagger-gen
+
+# FORK FROM : https://github.com/pgroot/express-swagger-generator
+
+Modified to support a basepath specification. Author did not respond to merge request for 5 months hence the fork.
 
 #### Installation
 
@@ -11,7 +15,7 @@ npm i express-swagger-generator --save-dev
 ```
 const express = require('express');
 const app = express();
-const expressSwagger = require('express-swagger-generator')(app);
+const expressSwagger = require('mb-swagger-gen')(app);
 
 let options = {
     swaggerDefinition: {
@@ -112,4 +116,4 @@ For model definitions:
 
 #### More
 
-This module is based on [express-swaggerize-ui](https://github.com/pgroot/express-swaggerize-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
+This module is based on [mb-swagger-ui](https://github.com/Lorune/mb-swagger-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
