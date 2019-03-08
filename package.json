@@ -1,6 +1,6 @@
 {
   "name": "mb-swagger-gen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generates swagger doc & ui based on express existing routes.",
   "main": "index.js",
   "scripts": {},
@@ -27,7 +27,7 @@
     "recursive-iterator": "^2.0.3",
     "swagger-parser": "^5.0.5",
     "doctrine-file": "^1.0.2",
-    "mb-swagger-ui": "^1.0.0"
+    "mb-swagger-ui": "^1.0.1"
   },
   "devDependencies": {
     "body-parser": "^1.15.0",
